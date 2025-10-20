@@ -85,6 +85,13 @@
             border-bottom: 1px solid #eee;
         }
 
+        /* Специальный стиль для изображения Харальда V */
+        .slide:nth-child(3) img {
+            object-fit: contain;
+            object-position: center 30%;
+            background-color: #f8f9fa;
+        }
+
         .slide-info {
             padding: 15px;
             flex-grow: 1;
@@ -203,6 +210,13 @@
             
             .slide img {
                 height: 200px;
+            }
+            
+            /* Для мобильных тоже применяем стиль для Харальда V */
+            .slide:nth-child(3) img {
+                object-fit: contain;
+                object-position: center 30%;
+                background-color: #f8f9fa;
             }
         }
 
